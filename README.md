@@ -58,6 +58,7 @@ Ansible 主機的群組管理，一直都是相當不容易的一個工作
 
 列出上述範例 `開發二組` 的主機
 ```
+# ansible -i ansible_tags_inventory.py 開發二組 --list-host
   hosts (3):
     test1
     test8
